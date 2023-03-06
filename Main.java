@@ -16,12 +16,10 @@ class Main {
 
     while (true) {
       System.out.println(
-          "Press 1 to learn about salary.\nPress 2 to Learn about the job.\nPress 3 to Learn about demand.\nPress 4 to view current students.\nPress 5 to quite. ");
+          "Press 1 to learn about salary.\nPress 2 to learn about the job.\nPress 3 to learn about demand.\nPress 4 to view current students.\nPress 5 to quit. ");
       int input = keys.nextInt();
 
-      if (input > 5) {
-        System.out.println("Not a valid input.");
-      } else if (input == 1) {
+       else if (input == 1) {
         System.out.println("$98,345 average salary in South Florida.");
       } else if (input == 2) {
         System.out.println("US News - 100 Best Jobs!");
