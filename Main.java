@@ -29,7 +29,7 @@ class Main {
       } else if (input == 5) {
         break;
       } else if (input == 4) {
-          System.out.println("Cuurent Students:\n");
+          System.out.println("Cuurent Students:");
            while(fileScanner.hasNextLine()){
              
         System.out.println(fileScanner.nextLine());
