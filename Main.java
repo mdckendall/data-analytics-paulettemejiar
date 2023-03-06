@@ -29,8 +29,9 @@ class Main {
       } else if (input == 5) {
         break;
       } else if (input == 4) {
+          System.out.println("4\n");
         while(fileScanner.hasNextLine()){
-        System.out.println("4\n"+ fileScanner.nextLine());
+        System.out.println(fileScanner.nextLine());
         }
       }
     }
