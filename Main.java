@@ -25,11 +25,13 @@ class Main {
         System.out.println("US News - 100 Best Jobs!");
 
       } else if (input == 3) {
-        System.out.println("Top 10 Forbes In-Demands Jobs!");
+        System.out.println("Top 10 Forbes In-Demand Jobs!");
       } else if (input == 5) {
         break;
       } else if (input == 4) {
+          System.out.println("Cuurent Students:\n");
            while(fileScanner.hasNextLine()){
+             
         System.out.println(fileScanner.nextLine());
         }
       }
