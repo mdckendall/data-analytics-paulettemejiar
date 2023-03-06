@@ -16,7 +16,7 @@ class Main {
 
     while (true) {
       System.out.println(
-          "Press 1 to learn about salary.\nPress 2 to learn about the job.\nPress 3 to learn about demand.\nPress 4 to view current students.\nPress 5 to quit. ");
+          "Press 1 to learn about salary.\nPress 2 to learn about the job.\nPress 3 to learn about demand.\nPress 4 to view current students.\nPress 5 to quit.");
       int input = keys.nextInt();
 
         if (input == 1) {
@@ -29,8 +29,7 @@ class Main {
       } else if (input == 5) {
         break;
       } else if (input == 4) {
-          System.out.println("4\n");
-        while(fileScanner.hasNextLine()){
+          System.out.println("4\n"); while(fileScanner.hasNextLine()){
         System.out.println(fileScanner.nextLine());
         }
       }
