@@ -20,16 +20,16 @@ class Main {
       int input = keys.nextInt();
 
         if (input == 1) {
-        System.out.println("1\n$98,345 average salary in South Florida!");
+        System.out.println("$98,345 average salary in South Florida!");
       } else if (input == 2) {
-        System.out.println("2\nUS News - 100 Best Jobs!");
+        System.out.println("US News - 100 Best Jobs!");
 
       } else if (input == 3) {
-        System.out.println("3\nTop 10 Forbes In-Demands Jobs!");
+        System.out.println("Top 10 Forbes In-Demands Jobs!");
       } else if (input == 5) {
         break;
       } else if (input == 4) {
-          System.out.println("4\n"); while(fileScanner.hasNextLine()){
+           while(fileScanner.hasNextLine()){
         System.out.println(fileScanner.nextLine());
         }
       }
