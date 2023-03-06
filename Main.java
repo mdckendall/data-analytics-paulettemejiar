@@ -19,7 +19,7 @@ class Main {
           "Press 1 to learn about salary.\nPress 2 to learn about the job.\nPress 3 to learn about demand.\nPress 4 to view current students.\nPress 5 to quit. ");
       int input = keys.nextInt();
 
-       else if (input == 1) {
+        if (input == 1) {
         System.out.println("$98,345 average salary in South Florida.");
       } else if (input == 2) {
         System.out.println("US News - 100 Best Jobs!");
