@@ -20,7 +20,7 @@ class Main {
       int input = keys.nextInt();
 
         if (input == 1) {
-        System.out.println("1\n$98,345 average salary in South Florida.");
+        System.out.println("1\n$98,345 average salary in South Florida!");
       } else if (input == 2) {
         System.out.println("2\nUS News - 100 Best Jobs!");
 
